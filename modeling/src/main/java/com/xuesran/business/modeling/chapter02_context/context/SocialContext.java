@@ -25,10 +25,10 @@ public interface SocialContext {
         /**
          * Is friend boolean.
          *
-         * @param user the user
+         * @param friend the user
          * @return the boolean
          */
-        boolean isFriend(User user);
+        boolean isFriend(User friend);
     }
 
     /**
