@@ -21,6 +21,14 @@ public interface SocialContext {
          * @param friedship the friedship
          */
         void make(Friedship friedship);
+
+        /**
+         * Is friend boolean.
+         *
+         * @param user the user
+         * @return the boolean
+         */
+        boolean isFriend(User user);
     }
 
     /**

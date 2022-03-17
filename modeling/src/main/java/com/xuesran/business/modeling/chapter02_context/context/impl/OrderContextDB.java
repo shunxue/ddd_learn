@@ -5,7 +5,7 @@ import com.xuesran.business.modeling.chapter02_context.models.User;
 import org.springframework.stereotype.Component;
 
 @Component
-public class OrderContextImpl implements OrderContext {
+public class OrderContextDB implements OrderContext {
     @Override
     public Buyer asBuyer(User user) {
         return null;

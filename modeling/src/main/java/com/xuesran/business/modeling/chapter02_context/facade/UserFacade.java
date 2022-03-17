@@ -1,10 +1,14 @@
 package com.xuesran.business.modeling.chapter02_context.facade;
 
 import com.xuesran.business.modeling.chapter02_context.context.OrderContext;
+import com.xuesran.business.modeling.chapter02_context.context.SubscriptionContext;
 import com.xuesran.business.modeling.chapter02_context.models.Content;
+import com.xuesran.business.modeling.chapter02_context.models.Subscription;
 import com.xuesran.business.modeling.chapter02_context.models.User;
 import com.xuesran.business.modeling.chapter02_context.repo.UserRepository;
 import org.springframework.stereotype.Component;
+
+import java.util.List;
 
 @Component
 public class UserFacade {
@@ -18,5 +22,14 @@ public class UserFacade {
         User byId = userRepository.findById(0L);
         OrderContext.Buyer buyer = userRepository.inOrderContext().asBuyer(byId);
         return false;
+    }
+
+    public boolean transfer(){
+        User byId = userRepository.findById(0L);
+        User friend = userRepository.findById(1L);
+
+        SubscriptionContext.Reader reader = userRepository.inSubscriptionContext().asReader(byId);
+        Subscription subscription = reader.getSubscriptions(1, 1).get(0);
+        return reader.transfer(subscription, friend);
     }
 }
