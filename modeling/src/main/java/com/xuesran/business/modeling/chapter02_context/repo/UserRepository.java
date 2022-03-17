@@ -1,8 +1,8 @@
 package com.xuesran.business.modeling.chapter02_context.repo;
 
-import com.xuesran.business.modeling.chapter02_context.context.OrderContext;
-import com.xuesran.business.modeling.chapter02_context.context.SocialContext;
-import com.xuesran.business.modeling.chapter02_context.context.SubscriptionContext;
+import com.xuesran.business.modeling.chapter02_context.domain.OrderContext;
+import com.xuesran.business.modeling.chapter02_context.domain.SocialContext;
+import com.xuesran.business.modeling.chapter02_context.domain.SubscriptionContext;
 import com.xuesran.business.modeling.chapter02_context.models.User;
 
 /**

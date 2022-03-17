@@ -1,6 +1,6 @@
-package com.xuesran.business.modeling.chapter02_context.context.impl;
+package com.xuesran.business.modeling.chapter02_context.domain.impl;
 
-import com.xuesran.business.modeling.chapter02_context.context.OrderContext;
+import com.xuesran.business.modeling.chapter02_context.domain.OrderContext;
 import com.xuesran.business.modeling.chapter02_context.models.Column;
 import com.xuesran.business.modeling.chapter02_context.models.User;
 import org.springframework.stereotype.Component;

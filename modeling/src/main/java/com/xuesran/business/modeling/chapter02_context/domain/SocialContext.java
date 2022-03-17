@@ -1,4 +1,4 @@
-package com.xuesran.business.modeling.chapter02_context.context;
+package com.xuesran.business.modeling.chapter02_context.domain;
 
 import com.xuesran.business.modeling.chapter02_context.models.User;
 import com.xuesran.business.modeling.chapter02_decorator.models.Friedship;

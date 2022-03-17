@@ -1,14 +1,12 @@
 package com.xuesran.business.modeling.chapter02_context.facade;
 
-import com.xuesran.business.modeling.chapter02_context.context.OrderContext;
-import com.xuesran.business.modeling.chapter02_context.context.SubscriptionContext;
+import com.xuesran.business.modeling.chapter02_context.domain.OrderContext;
+import com.xuesran.business.modeling.chapter02_context.domain.SubscriptionContext;
 import com.xuesran.business.modeling.chapter02_context.models.Content;
 import com.xuesran.business.modeling.chapter02_context.models.Subscription;
 import com.xuesran.business.modeling.chapter02_context.models.User;
 import com.xuesran.business.modeling.chapter02_context.repo.UserRepository;
 import org.springframework.stereotype.Component;
-
-import java.util.List;
 
 @Component
 public class UserFacade {

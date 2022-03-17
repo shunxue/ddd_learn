@@ -1,6 +1,6 @@
-package com.xuesran.business.modeling.chapter02_context.context.impl;
+package com.xuesran.business.modeling.chapter02_context.domain.impl;
 
-import com.xuesran.business.modeling.chapter02_context.context.SocialContext;
+import com.xuesran.business.modeling.chapter02_context.domain.SocialContext;
 import com.xuesran.business.modeling.chapter02_context.models.User;
 import com.xuesran.business.modeling.chapter02_context.repo.FriendShipRepository;
 import com.xuesran.business.modeling.chapter02_decorator.models.Friedship;

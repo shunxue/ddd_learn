@@ -1,9 +1,8 @@
-package com.xuesran.business.modeling.chapter02_context.context;
+package com.xuesran.business.modeling.chapter02_context.domain;
 
 import com.xuesran.business.modeling.chapter02_context.models.Content;
 import com.xuesran.business.modeling.chapter02_context.models.Subscription;
 import com.xuesran.business.modeling.chapter02_context.models.User;
-import com.xuesran.business.modeling.chapter02_decorator.models.Friedship;
 
 import java.util.List;
 
